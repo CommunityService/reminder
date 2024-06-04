@@ -112,6 +112,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
 }
 
 .child-rando {
@@ -150,4 +151,39 @@ button {
 
 .rando-box-text {
     color: #56585b;
+}
+
+
+/* QUOTE SECTION */
+
+.main-quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.child-quote {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-att {
+    text-align: right;
+    font-weight: bold;
+    font-size: 26px;
 }
