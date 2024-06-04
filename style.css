@@ -245,3 +245,14 @@ body {
 
 /* FOOTER SECTION */
 
+.main-footer {
+    background-color:#1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #e5e7eb;
+}
