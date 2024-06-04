@@ -4,6 +4,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 button {
     max-width: 130px;
     max-height: 100px;
