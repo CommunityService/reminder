@@ -4,3 +4,107 @@
     font-family: "Roboto", sans-serif;
 }
 
+button {
+    max-width: 130px;
+    max-height: 100px;
+    margin-top: 5px;
+    background-color: #3B81F6;
+    border-radius: 8px;
+    border: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+/* NAV BAR ELEMENTS */
+
+.main-nav-bar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.child-nav-bar {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link-box {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-link {
+    color: #ABAFB5;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* AWESOME SECTION */
+
+
+.main-awesec {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.child-awesec {
+    width: 1000px;
+    display: flex;
+}
+
+.awesec-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.awesec-hero-text {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.awesec-subtext {
+    color: #D1D4D9;
+    font-size: 18px;
+}
+
+.image-box {
+    width: 500px;
+    height: 250px;
+    background-color: #6C747D;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-place {
+    color: #f9faf8;
+}
+
+
+/* RANDO SECTION */
+
+.child-rando {
+    width: 1000px;
+    display: flex;
+}
