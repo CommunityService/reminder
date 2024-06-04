@@ -191,9 +191,43 @@ body {
 
 /* CTA SECTION */
 
+.main-cta {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.child-cta {
+    display: flex;
+    justify-content: center;
+}
 
+.cta-blue-box {
+    background: #3B81F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
 
+.cta-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-header-text {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cta-subtext {
+    color: #D1D4D9;
+}
 
 .button-2 {
     width: 120px;
@@ -205,6 +239,9 @@ body {
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
-    padding: 5px;
-    border-color: #f9faf8;
+    /* padding: 5px; */
+    border: #f9faf8 solid 2px;
 }
+
+/* FOOTER SECTION */
+
